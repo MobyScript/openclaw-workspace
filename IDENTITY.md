@@ -22,4 +22,4 @@ Notes:
 
 ## Related
 
-- [Agent workspace](/concepts/agent-workspace)
+- [Agent workspace](https://docs.openclaw.ai/concepts/agent-workspace)

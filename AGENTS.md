@@ -60,7 +60,7 @@ Before proposing or building a custom system, feature, workflow, tool, integrati
 
 ## Discord Channel Behaviors
 
-- **#📓-journal** (channel 1536706818431262811): when Moby writes a journal entry, save it to `~/Documents/The MOB/Journal/YYYY-MM-DD.md` (create if missing, append if exists) and reply ONLY with `logged 📓` — no commentary, no questions.
+- **#📓-journal** (channel `<JOURNAL_CHANNEL_ID>`): when Moby writes a journal entry, save it to `~/Documents/The MOB/Journal/YYYY-MM-DD.md` (create if missing, append if exists) and reply ONLY with `logged 📓` — no commentary, no questions.
 
 ## Todos & Reminders (Notion flow)
 
@@ -112,7 +112,7 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 
 When you receive a heartbeat poll (message matches the configured heartbeat prompt), don't just reply `HEARTBEAT_OK` every time. You're free to edit `HEARTBEAT.md` with a short checklist or reminders - keep it small to limit token burn.
 
-See [Scheduled Tasks (Cron) vs Heartbeat](/automation#scheduled-tasks-cron-vs-heartbeat) for the full decision table. Short version: heartbeat batches periodic checks with full session context on approximate timing (default every 30 minutes); cron is for exact timing, isolated runs, a different model, or one-shot reminders.
+See [Scheduled Tasks (Cron) vs Heartbeat](https://docs.openclaw.ai/automation#scheduled-tasks-cron-vs-heartbeat) for the full decision table. Short version: heartbeat batches periodic checks with full session context on approximate timing (default every 30 minutes); cron is for exact timing, isolated runs, a different model, or one-shot reminders.
 
 **Things to check (rotate through these, 2-4 times per day):** emails for urgent unread messages; calendar for events in the next 24-48h; social mentions; weather if your human might go out.
 
@@ -146,9 +146,9 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 
 ## Related
 
-- [Default AGENTS.md](/reference/AGENTS.default)
-- [Scheduled tasks vs heartbeat](/automation#scheduled-tasks-cron-vs-heartbeat)
-- [Heartbeat](/gateway/heartbeat)
+- [Default AGENTS.md](https://docs.openclaw.ai/reference/AGENTS.default)
+- [Scheduled tasks vs heartbeat](https://docs.openclaw.ai/automation#scheduled-tasks-cron-vs-heartbeat)
+- [Heartbeat](https://docs.openclaw.ai/gateway/heartbeat)
 
 ## Workspace Location (updated 2026-08-12)
 
