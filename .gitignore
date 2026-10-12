@@ -1,0 +1,23 @@
+# === Secrets / credentials (never commit) ===
+.env
+.env.*
+*.key
+*.pem
+secrets*
+*token*
+*secret*
+
+# === Personal / private workspace data ===
+USER.md
+MEMORY.md
+TOOLS.md
+memory/
+media/
+.openclaw-cli-images/
+openclaw-workspace-state.json
+
+# === OS / editor junk ===
+.DS_Store
+*.swp
+.vscode/
+.idea/
